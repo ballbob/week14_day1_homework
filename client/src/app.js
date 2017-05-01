@@ -4,7 +4,10 @@ import FilmBox from './components/FilmBox.jsx'
 
 window.onload = function(){
   ReactDOM.render(
-    <FilmBox />,
+   <div>
+    <h3>Upcoming releases</h3>
+    <FilmBox />
+  </div>,
     document.getElementById('upcoming-films')
   )
 }
