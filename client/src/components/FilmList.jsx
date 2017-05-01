@@ -17,7 +17,7 @@ class FilmList extends React.Component{
 
     return(
       <div className="film-list">
-      <p>this is the film list</p>
+        {filmNodes}
       </div>)
   }
 }
