@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import FilmList from './FilmList.jsx'
+import FilmList from './FilmList.jsx'
 
 class FilmBox extends React.Component{
 
@@ -22,7 +22,7 @@ class FilmBox extends React.Component{
   render(){
     return(
         <div className="film-box">
-          <p>this is the film box</p>
+          <FilmList data={this.state.data}/>
         </div>
       )
   }
