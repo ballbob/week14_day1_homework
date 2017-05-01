@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import FilmBox from './components/FilmBox.jsx'
 
 window.onload = function(){
   ReactDOM.render(
-    <p>app running</p>,
+    <FilmBox />,
     document.getElementById('upcoming-films')
-  );
+  )
 }
